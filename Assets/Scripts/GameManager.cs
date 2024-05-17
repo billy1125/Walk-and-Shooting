@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
         //float randomRotation = Random.Range(-maxRotation, maxRotation);
         //Quaternion rotation = Quaternion.Euler(0f, randomRotation, 0f);
 
-        float randomX = Random.Range(-2.0f, 3.0f);
+        float randomX = Random.Range(-3.0f, 3.0f);
         // 生成物件並應用隨機旋轉
         GameObject spawnedObject = Instantiate(Enemy, EnemyInstantiatePoint.position + new Vector3(randomX, 0, 0), Quaternion.identity);
     }

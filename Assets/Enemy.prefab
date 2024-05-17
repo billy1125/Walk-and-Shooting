@@ -146,6 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bbe210b1100e4f47891e58a845fa53d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTag: PlayerBody
   moveSpeed: 5
   rotationAngle: 45
+  accelerationDistance: 3
+  accelerationMultiplier: 2
+  playerObject: {fileID: 0}
   direction: {x: 0, y: 0, z: 0}
+  defaultRotation: {x: 0, y: 0, z: 0}
